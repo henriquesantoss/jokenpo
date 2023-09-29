@@ -24,11 +24,11 @@ const Game = () => {
       (player === "papel" && computer === "pedra") ||
       (player === "tessoura" && computer === "papel")
     ) {
-      setPlayerScore(playerScore + 1);
-      return "Jogador vence!";
+       setPlayerScore(playerScore + 1);
+      return "Jogador venceu!";
     } else {
       setComputerScore(computerScore + 1);
-      return "Computador vence!";
+      return "Computador venceu!";
     }
   };
 
