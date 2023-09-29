@@ -20,9 +20,9 @@ const Game = () => {
       setDraws(draws + 1);
       return "Empate!";
     } else if (
-      (player === "rock" && computer === "scissors") ||
-      (player === "paper" && computer === "rock") ||
-      (player === "scissors" && computer === "paper")
+      (player === "pedra" && computer === "tessoura") ||
+      (player === "papel" && computer === "pedra") ||
+      (player === "tessoura" && computer === "papel")
     ) {
       setPlayerScore(playerScore + 1);
       return "Jogador vence!";
